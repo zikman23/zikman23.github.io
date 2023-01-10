@@ -1,0 +1,23 @@
+{
+  "name": "zikman23.github.io",
+  "version": "1.0.0",
+  "description": "https://zikman23.github.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zikman23/zikman23.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zikman23/zikman23.github.io/issues"
+  },
+  "homepage": "https://github.com/zikman23/zikman23.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/album.css" />
+    <title>Ahmad Karimi's Portfolio</title>
+    <style>
+      .headshot {
+        border-radius: 50%;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"
+          ><img class="headshot" src="assets/memoji-zik-2.png" height="50px/" title /> Ahmad Karimi's Portfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/zikman23/pacman"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Pac-Man Excercise</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/zikman23/map-animation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Real Time Bus Tracking Map Animation</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/zikman23/eye-exercise"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Eye Movement exercise</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="https://zikman23.github.io/" target="_blank" rel="noopener noreferrer"
+                    >GitHub Portfolio</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <!-- 
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> 
+        --></div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Album example</h1>
+            <p class="lead text-muted">
+              Something short and leading about the collection below—its contents, the creator, etc. Make it short and
+              sweet, but not too short so folks don’t simply skip over it entirely.
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Main call to action</a>
+              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+            </p>
+          </div>
+        </div>
+      </section>-->
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <a href="https://github.com/zikman23/pacman" target="_blank" rel="noopener noreferrer"
+                  ><img
+                    style="padding-top: 65.125px; padding-bottom: 65.125px"
+                    src="../pacman/images/pac-man-logo-1.png"
+                    class="card-img-top"
+                    alt="Pac-Man Excercise"
+                    width="100%"
+                    aria-label="Pac-Man Excercise"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false" />
+                  <title>Pac-Man Excercise</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <!-- <text x="50%" y="50%" fill="#eceeef" dy=".3em">Pac-Man Excercise</text> -->
+                </a>
+
+                <div class="card-body">
+                  <p class="card-text">Pac-Man Excercise</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/zikman23/pacman" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">View GitHub</button></a
+                      >
+                      <a href="https://zikman23.github.io/pacman/" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">Live Demo</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <a href="https://github.com/zikman23/map-animation" target="_blank" rel="noopener noreferrer"
+                  ><img
+                    src="../map-animation/screenshot.png"
+                    class="card-img-top"
+                    alt="Real Time Bus Tracker screenshot"
+                    width="100%"
+                    height="225"
+                    aria-label="Real Time Bus Tracking Map Animation"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false" />
+                  <title>Real Time Bus Tracking Map Animation</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <!-- <text x="50%" y="50%" fill="#eceeef" dy=".3em">Real Time Bus Tracking Map Animation</text> -->
+                </a>
+
+                <div class="card-body">
+                  <p class="card-text">Real Time Bus Tracking Map Animation</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/zikman23/map-animation" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">View GitHub</button></a
+                      >
+                      <a href="https://zikman23.github.io/map-animation/" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">Live Demo</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+                <a href="https://github.com/zikman23/eye-exercise" target="_blank" rel="noopener noreferrer"
+                  ><img
+                    src="../eye-exercise/screenshot.png"
+                    class="card-img-top"
+                    alt="Eye Movement Exercise screenshot"
+                    width="100%"
+                    height="225"
+                    aria-label="Eye Movement Exercise"
+                    preserveAspectRatio="xMidYMid slice"
+                    focusable="false" />
+                  <title>Eye Movement Exercise</title>
+                  <rect width="100%" height="100%" fill="#55595c" />
+                  <!-- <text x="50%" y="50%" fill="#eceeef" dy=".3em">Eye Movement Exercise</text> -->
+                </a>
+
+                <div class="card-body">
+                  <p class="card-text">Eye Movement Exercise</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="https://github.com/zikman23/eye-exercise" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">View GitHub</button></a
+                      >
+                      <a href="https://zikman23.github.io/eye-exercise/" target="_blank" rel="noopener noreferrer"
+                        ><button type="button" class="btn btn-sm btn-outline-secondary">Live Demo</button></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">&copy; 2023 Ahmad Karimi, MIT xPro</p>
+      </div>
+    </footer>
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
