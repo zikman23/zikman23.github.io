@@ -48,3 +48,12 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+
+.headshot {
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.btn-primary {
+  color: #212529;
+  background-color: #f0f0f0;
+}
