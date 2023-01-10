@@ -11,6 +11,10 @@
         border-radius: 50%;
         margin-left: 10px;
       }
+      .btn-primary {
+        color: #212529;
+        background-color: #f0f0f0;
+      }
     </style>
   </head>
 
@@ -33,17 +37,17 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Bio</a>
+              <a class="nav-link" href="#bio">Bio</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="./projects.html"
                 role="button"
-                data-bs-toggle="dropdown"
+                data-hover="dropdown"
                 aria-expanded="false">
                 Projects
               </a>
@@ -83,9 +87,9 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link disabled">Disabled</a>
-            </li>
+            </li>-->
           </ul>
           <!-- 
             <form class="d-flex" role="search">
@@ -159,14 +163,10 @@
       <section class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="fw-light">Album example</h1>
-            <p class="lead text-muted">
+            <h1 class="fw-normal">Album example</h1>
+            <p class="lead">
               Something short and leading about the collection below—its contents, the creator, etc. Make it short and
-              sweet, but not too short so folks don’t simply skip over it entirely.
-            </p>
-            <p>
-              <a href="#" class="btn btn-primary my-2">Main call to action</a>
-              <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              sweet, but not too short so folks don't simply skip over it entirely.
             </p>
           </div>
         </div>
@@ -276,9 +276,80 @@
           </div>
         </div>
       </div>
+
+      <section class="py-5 text-center container">
+        <div id="bio">
+          <div class="row py-lg-5">
+            <div class="col-lg-7 col-md-8 mx-auto">
+              <h1 class="fw-normal">Hi there 👋</h1>
+              <p class="display">
+                My name is Ahmad Karimi and I am currently enrolled in the MIT xPRO Full Stack Development course. I
+                have been interested in software development for as long as I can remember, but have not seriously
+                pursued it until now. I have done many things prior to this, and I am excited to go forward and keep
+                learning.
+              </p>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card text-start">
+                    <div class="card-body">
+                      <h5 class="card-title">Previously</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        <ul>
+                          <li>Degree in Biology and Chemistry</li>
+                          <li>Currently work as a Project Engineer</li>
+                          <li>Owned a Leatherworking business</li>
+                          <li>Hosted a Jazz radio show</li>
+                        </ul>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card text-start">
+                    <div class="card-body">
+                      <h5 class="card-title">Currently</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">
+                        <ul>
+                          <li>Web development with JavaScript, HTML, and CSS</li>
+                          <li>Front end development with React</li>
+                          <li>Back end development with MongoDB, Express, and Node.js</li>
+                        </ul>
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <br />
+              <h4 id="get-in-touch">Get in touch</h4>
+
+              <a href="zikman@gmail.com"
+                ><button type="button" class="btn btn-primary btn-sm">
+                  <img src="./assets/email.png" height="30" /> Email
+                </button></a
+              >
+              <a href="https://github.com/zikman23"
+                ><button type="button" class="btn btn-primary btn-sm">
+                  <img src="./assets/github.png" height="30" /> GitHub
+                </button></a
+              >
+              <a href="www.linkedin.com/in/ahmad-zik-karimi-439a34108"
+                ><button type="button" class="btn btn-primary btn-sm">
+                  <img src="./assets/business.png" height="30" /> LinkedIn
+                </button></a
+              >
+              <a href="https://twitter.com/AhmadZKarimi"
+                ><button type="button" class="btn btn-primary btn-sm">
+                  <img src="./assets/twitter.png" height="30" /> Twitter
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="text-muted py-5">
+    <footer class="text-muted py-5 bg-light">
       <div class="container">
         <p class="float-end mb-1">
           <a href="#">Back to top</a>
